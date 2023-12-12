@@ -1,6 +1,6 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 // The Beginning of my Auto Messenging Project!//
-console.log("Your daily fortune!")
+console.log("Your daily fortune...")
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Daily Fortune telling! //
 // Plan: //
@@ -41,4 +41,8 @@ function randomChoice(array) {
   return choice
 }
 
-console.log(randomChoice(adjectiveArray));
+let fortune1 = "Today you will have " + randomChoice(adjectiveArray) + " luck."
+let fortune2 = "You will " + randomChoice(successArray) + " " + randomChoice(lifeAspectArray) + "."
+let fortune3 = "You must " + randomChoice(simpleAdviceArray) + "!"
+
+console.log(fortune1, fortune2, fortune3)
